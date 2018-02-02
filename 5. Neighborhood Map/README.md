@@ -1,6 +1,6 @@
 # Neighborhood Map
 
-### [Live Preview](https://eslamtk.github.io/Neighborhood-Map)
+### [Live Preview](https://eslamtk.github.io/Full-Stack-Web-Developer-Nanodegree/5.%20Neighborhood%20Map/)
 
 **The Application is a single-page application featuring a map of popular places on Egypt.**
 
