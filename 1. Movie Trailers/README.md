@@ -1,6 +1,6 @@
 # Movie Trailers Website
 
-**Live Preview [Here](https://eslamtk.github.io/Movie-Trailers-Website/index.html).**
+**Live Preview [Here](https://eslamtk.github.io/Full-Stack-Web-Developer-Nanodegree/1.%20Movie%20Trailers/).**
 
 **Note :** Please Make Sure Your Browser Not Blocking The Site Scripts As Below :
 
