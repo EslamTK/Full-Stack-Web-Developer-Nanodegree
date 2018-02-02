@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>Delete Blog</title>
+{% endblock %}
+
+{% block content %}
+<h1>Delete Blog</h1>
+<form action="/blog/{{ blog_id }}/delete" method="POST">
+    Are You Sure You Want To Delete The Blog ? <br><br>
+    <input type="submit" value="Yes">
+</form>
+{% endblock %}

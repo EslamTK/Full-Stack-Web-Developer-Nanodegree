@@ -1,0 +1,91 @@
+@media screen and (min-width: 828px) {
+    li {
+        width: 33%;
+        display: inline-block;
+    }
+
+}
+
+@media screen and (min-width: 512px) and (max-width: 828px) {
+    li {
+        width: 49%;
+        display: inline-block;
+    }
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #003366;
+    text-align: center;
+}
+
+header {
+    height: 75px;
+    text-align: right;
+}
+
+header a {
+    margin: 5px;
+    color: lavender;
+}
+
+header form {
+    display: inline;
+}
+
+button, #logout {
+    margin-top: 13.5px;
+    height: 48px;
+}
+
+main {
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.blog {
+    color: black;
+    text-decoration: blink;
+}
+
+section {
+    padding: 5px 0 5px 0;
+}
+
+section:hover {
+    background-color: lavender;
+}
+
+textarea {
+    font-size: large;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    padding: 5px 0 5px 0;
+}
+
+li a {
+    color: black;
+    padding: 5px 0 5px 0;
+    display: block;
+    text-decoration: blink;
+    background-color: #f5f5f5;
+}
+
+li a:hover {
+    background-color: lavender;
+}
+
+.g-signin2 {
+    margin: 10px;
+    display: inline-block;
+}

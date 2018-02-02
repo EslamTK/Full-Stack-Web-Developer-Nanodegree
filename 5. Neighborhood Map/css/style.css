@@ -1,0 +1,73 @@
+@media screen and (min-width: 768px) {
+    main nav {
+        position: relative !important;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #2C3E50;
+}
+
+header * {
+    display: inline;
+    margin-left: 10px;
+}
+
+header button {
+    border: none;
+    color: #F2F1EF;
+    background-color: transparent;
+}
+
+header button:hover {
+    cursor: pointer;
+}
+
+header p {
+    color: #F2F1EF;
+    margin-left: 20px;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 53px);
+}
+
+main nav {
+    z-index: 1;
+    height: 100%;
+    padding: 20px;
+    position: fixed;
+    background-color: #BDC3C7;
+}
+
+main #map {
+    z-index: 0;
+    width: 100%;
+}
+
+ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+li {
+    padding: 10px;
+    display: block;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: #F2F1EF;
+}

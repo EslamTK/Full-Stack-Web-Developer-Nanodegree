@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Egypt Popular Places</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <button class="fa fa-bars" aria-hidden="true" data-bind="click: clickMenu"></button>
+    <p>Egypt Popular Places</p>
+</header>
+<main>
+    <nav data-bind="visible: showNav">
+        <input type="text" placeholder="Search Locations" data-bind="textInput: keyword">
+        <ul data-bind="foreach: { data: locations, as: 'location' }">
+            <li data-bind="text: location.title, click: clickLocation"></li>
+        </ul>
+    </nav>
+    <section id="map">
+    </section>
+</main>
+<script src="https://use.fontawesome.com/2dfe59e8c7.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/knockout.js"></script>
+<script src="model/points.js"></script>
+<script src="js/info.js"></script>
+<script src="js/map.js"></script>
+<script src="js/viewmodel.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG6dq4LqiicYoM6DptZVtiXnNM3BL-dqw&callback=initMap" onerror="mapError()">
+</script>
+</body>
+</html>
