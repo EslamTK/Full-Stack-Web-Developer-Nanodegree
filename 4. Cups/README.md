@@ -1,6 +1,6 @@
 # Cups Blog System
 
-The Project Is A Blog System Which Gives The Users The Ability To CRUD (Create, Read, Update, Delete) Blogs In Different Categories..
+The Project Is A Blog System That Uses Google Sign-In For Authentication, And Gives The Users The Ability To CRUD (Create, Read, Update, Delete) Blogs In Different Categories.
 
 ### Project Requirements To Run :
   * Python v3
